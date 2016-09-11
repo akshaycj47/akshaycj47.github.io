@@ -1,2 +1,2 @@
-# akshaycj47.github.io
+/bin/bash: q: command not found
 Personal website

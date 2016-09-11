@@ -1,0 +1,249 @@
+.jumbotron {
+	background-image:url('images/jumbotron.jpg');
+	height: 900px;
+	background-repeat: no-repeat;
+	background-size: cover;  
+	opacity: 1;
+	/*max-width:100%*/
+}
+
+.jumbotron .container {
+	position: relative;
+	top:80px;
+}
+
+.jumbotron .container .transbox {
+	position: relative;
+	background-color: #ffffff;
+	border: 1px solid black;
+	border-radius: 25px;
+	opacity: 0.6;
+	filter: alpha(opacity=60); 
+	margin-bottom: 10px;
+	max-width: 100%;
+}
+
+.jumbotron .container .transbox h1 {
+	color: #000000;
+	font-size: 48px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.jumbotron .container .transbox h3 {
+	color: #000000;
+	font-size: 32px;  
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.jumbotron p {
+	font-size: 20px;
+	color: #000000;
+	padding-left: 10px;
+}
+
+.jumbotron p img {
+	height: 50px;
+	opacity: 0.85;
+}
+
+.jumbotron p img:hover {
+	height: 50px;
+	opacity: 1;
+}
+
+.projects {
+    background-color: #EFEFEF;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.projects h2 {
+    color: #393C3D;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.projects p {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.projects .row p {
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.projects .thumbnail img {
+	width: 350px;
+	height: 300px;
+	opacity: 0.8;
+}
+
+.projects .thumbnail img:hover {
+	width: 350px;
+	height: 300px;
+	opacity: 1;
+}
+
+.learn-more {
+	background-color: #f7f7f7;
+	margin-bottom: 50px;
+}
+
+.learn-more h3 {
+	font-family: 'Shift', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.learn-more a {
+	color: #00b0ff;
+}
+
+.contact-me {
+    background-color: #EFEFEF;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.contact-me h1 {
+    color: #393C3D;
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+.contact-me p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.contact-me h3 img {
+	height: 40px;
+	padding-right: 5px;
+}
+
+.about-me {
+    /*background-color: #EFEFEF;*/
+    /*border-bottom: 3px solid #DBDBDB;*/
+}
+
+.about-me .mu {
+	padding-top: 25px;
+	border-top: 3px solid #DBDBDB;
+}
+
+.about-me .experience {
+	/*border-top: 3px solid #DBDBDB;*/
+}
+
+.about-me .skills {
+	/*border-top: 3px solid #DBDBDB;*/
+}
+
+.about-me .achievements {
+	/*border-top: 3px solid #DBDBDB;*/
+	font-size: 35px;
+}
+
+.about-me h1 {
+    color: #393C3D;
+    font-weight: bold;
+}
+
+.about-me h2 {
+    color: #393C3D;
+    font-weight: bold;
+}
+
+.about-me p {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.about-me ul {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.about-me li {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.about-me .thumbnail img {
+	width: 350px;
+	height: 300px;
+}
+
+.project-page {
+    background-color: #EFEFEF;
+    border-bottom: 1px solid #DBDBDB;
+}
+
+.project-page p h2 {
+	border-bottom: 3px solid #DBDBDB;
+}
+
+.project-page .row {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	border-bottom: 3px solid #DBDBDB;
+}
+
+.project-page h1 {
+    color: #393C3D;
+    font-weight: bold;
+}
+
+.project-page h2 {
+    color: #393C3D;
+    font-weight: bold;
+}
+
+.project-page a {
+	display: inline;
+	margin: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.project-page p {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
+.project-page ul {
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.project-page li {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: justify;
+}
+
+.project-page .thumbnail img {
+	width: 350px;
+	height: 300px;
+}
+
+.project-page .date-range {
+    font-size: 16px;
+    color: #666;
+}
+
+.carousel-caption {
+    font-size: 20px;
+    color: black;
+}
+
+.carousel-indicators li {
+    background: #ccc;
+}
+
+.carousel-indicators .active {
+    background: #666;
+}

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Akshay Sawant - About Me</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		
+		<!-- Glyphicons from Font Awesome -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- My stylesheet -->
+		<link rel="stylesheet" href="main.css">
+	</head>
+	
+	<body>
+		<!-- CODE FOR NAVBAR --> 
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">
+			  	<img alt="Brand" style="height: 30px; display: inline; padding-right: 5px" src="images/brand.jpg">Akshay Sawant
+			  </a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<!-- <li class="active"><a href="#">About Me<span class="sr-only">(current)</span></a></li>  -->
+				<li><a style="top: 5px" href="about_me.html">About Me</a></li>
+				<li class="dropdown">
+				  <a style="top: 5px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+				  	<li><a href="projects.html#approx-computing">Approximate Computing (HTML, CSS, JavaScript, Python, Java)</a></li>
+				  	<li class="divider"></li>
+				    <li><a href="projects.html#mbset">MandelBrot Set (CUDA, OpenGL)</a></li>
+				    <li><a href="projects.html#jet">Fighter Jet (OpenGL)</a></li>
+				    <li><a href="projects.html#rsa">RSA Algorithm (C++)</a></li>
+				    <li><a href="projects.html#vector">Templated Vector (C++)</a></li>
+				    <li><a href="projects.html#phreads">2D DFT using POSIX Threads (C++, pthreads)</a></li>
+				    <li><a href="projects.html#mpi">2D DFT using MPI (C++, MPI)</a></li>
+				    <li class="divider"></li>
+					<li><a href="projects.html#coherence">Cache Coherence (C++)</a></li>
+					<li><a href="projects.html#tomasulo">Superscalar Processor using Tomasulo Algorithm (C++, Python)</a></li>
+					<li><a href="projects.html#cache">Cache Simulator (C++, Python)</a></li>
+				    <li class="divider"></li>
+				    <li><a href="projects.html#widiki">Wireless Diagnostic System (Android, Embedded C)</a></li>
+				    <li><a href="projects.html#zigbee">Wireless Display using ZigBee</a></li>
+				    <li><a href="projects.html#bot">Intelligent Transhosp Medibot</a></li>
+				    <li class="divider"></li>
+				    <li><a href="http://www.iaeme.com/MasterAdmin/UploadFolder/IN%20BUILDING%20SOLUTIONS%20_IBS_%20USING%20DISTRIBUTED%20ANTENNA%20SYSTEM%5CIN%20BUILDING%20SOLUTIONS%20_IBS_%20USING%20DISTRIBUTED%20ANTENNA%20SYSTEM.pdf">In Building Solutions</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+			  	<!--
+				<li><a style="top: 5px" href="#">Skills</a></li>
+				-->
+				<li class="dropdown">
+				  <a style="top: 5px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Publications<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+				    <li><a href="http://www.iaeme.com/MasterAdmin/UploadFolder/IN%20BUILDING%20SOLUTIONS%20_IBS_%20USING%20DISTRIBUTED%20ANTENNA%20SYSTEM%5CIN%20BUILDING%20SOLUTIONS%20_IBS_%20USING%20DISTRIBUTED%20ANTENNA%20SYSTEM.pdf">In Building Solutions using Distributed Antenna System</a></li>
+				    <li><a href="http://www.academia.edu/4156737/WIRELESS_DISPLAY_USING_ZIGBEE">Wireless Display using ZigBee</a></li>
+				    <li><a href="http://www.ijser.org/researchpaper%5CIntelligent-TransHosp-Medibot.pdf">Intelligent Transhosp Medibot</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a style="top: 5px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+				    <li><a href="contact.html#email">E-mail</a></li>
+				    <li><a href="contact.html#phone">Phone</a></li>
+				    <li class="divider"></li>
+				    <li><a href="contact.html#postal-mail">Postal Address</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
+		<!-- CODE FOR CAROUSEL -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<div class="container">	
+				<!-- Indicators -->
+	     		<ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+										
+					<!-- SLIDE 1 -->
+					<div class="item active">
+						
+						<!-- CODE FOR THUMBNAILS BASED EDUCATION -->
+						<div  style="margin-top: 50px" class="about-me">
+							<div class="container">
+								<h1>Education</h1>
+				
+								<div class="row">
+									<div class="gatech">
+										<div class="col-md-4">
+											<div class="thumbnail">
+												<img src="images/gatech.jpg">
+												<div class="caption">
+												 	<p class="text-center">Georgia Tech</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-8">
+											<h2>Georgia Institute of Technology</h2>
+											<ul>
+												<li>M.S. in Electrical and Computer Engineering</li>
+												<li><strong>GPA:</strong> 3.625 / 4.0</li>
+												<li><strong>Graduation:</strong> May 2016 (Expected)</li>
+											</ul>
+											<br>
+											<ul>Coursework:
+												<li>Advanced Programming Techniques</li>
+												<li>Advanced Computer Architecture</li>
+												<li>Parallel and Distributed Computer Architecture</li>
+												<li>Advanced Memory Systems</li>
+												<li>Digital Systems Test</li>
+												<li>Wireless Networks</li>
+												<li>Computer Networks</li>
+												<li>Special Problem - Approximate Computing</li>
+											</ul>
+										</div>   
+									</div>
+								</div>
+						
+								<div class="row">
+									<div class="mu">
+										<div class="col-md-4">
+											<div class="thumbnail">
+												<img src="images/mu.jpg">
+												<div class="caption">
+												 	<p class="text-center">University of Mumbai</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-8">
+											<h2>University of Mumbai</h2>
+											<ul>
+												<li>Dwarkadas J. Sanghvi College of Engineering</li>
+												<li>B.E. in Electronics and Telecommunication</li>
+												<li><strong>GPA:</strong> 3.73 / 4.0</li>
+												<li><strong>Graduation:</strong> May 2014</li>
+											</ul>
+											<br>
+											<ul>Coursework:
+												<li>Computer Programming</li>
+												<li>Data Structures and Algorithms</li>
+												<li>Digital Logic Design</li>
+												<li>Microprocessors and Microcontrollers</li>
+												<li>Basic Electronics and Electricals</li>
+												<li>Mobile Communication</li>
+										 	</ul>
+										</div>  
+									</div> 
+								</div>
+							   	        
+							</div>
+						</div> 
+						
+						<!-- CODE FOR BLANKSPACE -->
+						<div class="blankspace">
+							<div class="container">
+								<br><br><br><br><br><br>
+							</div>
+						</div>
+						<!-- CODE FOR BLANKSPACE ENDS--> 
+						
+						<div class="carousel-caption">
+							Education
+						</div>
+					</div>
+					<!-- SLIDE 1 ENDS -->
+					
+					<!-- SLIDE 2 -->
+					<div class="item">
+						
+						<!-- CODE FOR BLANKSPACE -->
+						<div class="blankspace">
+							<div class="container">
+								<br><br><br><br>
+							</div>
+						</div>
+						<!-- CODE FOR BLANKSPACE ENDS-->
+						
+						<!-- CODE FOR THUMBNAILS BASED EXPERIENCE -->
+						<div class="about-me">
+							<!--<div class="container"> -->
+								<div class="experience">
+									<h1>Experience</h1>
+				
+									<div class="row">
+										<div class="col-md-4">
+											<div class="thumbnail" id="intel">
+												<img src="images/intel.jpg"> 
+											</div>
+										</div>
+										<div class="col-md-8">
+											<h2>Intel Corporation</h2>
+											<ul>
+												<li><strong>Position:</strong> Graphics Software Engineer Intern</li>
+												<li><strong>Department:</strong> Visual and Parallel Computing Group (VPG)</li>
+											</ul>
+											<br>
+											<ul>
+                                                <li class="text-justify">Technologies: Python, C++, Google Test framework, Mako template engine, JSON.</li>
+												<li class="text-justify">Member of team responsible for building the DirectX Graphics Driver for Microsoft Windows Operating Systems. Involved in design, implementation, and test of features assigned. </li>
+												<li class="text-justify">Wrote highly functional, power and performance optimized software for Intel's processor graphics.</li>
+                                                <li class="text-justify">Improved  developer  productivity and  facilitated  consistent  code  across 3D APIs by developing  and maintaining an internal tool.</li>
+											</ul>
+										</div>   
+									</div>
+									
+									<div class="row">
+										<div class="col-md-4">
+											<div class="thumbnail">
+												<img src="images/nsn.jpg"> 
+											</div>
+										</div>
+										<div class="col-md-8">
+											<h2>Nokia Siemens Networks</h2>
+											<ul>
+												<li><strong>Position:</strong> Technical Intern</li>
+												<li><strong>Department:</strong> RF Planning and Optimization</li>
+											</ul>
+											<br>
+											<ul>Projects:
+												<li class="text-justify"><strong>Primary 5 week project:</strong> Member of 4 person team that implemented 'In Building Solutions' which ensures uniform network coverage in buildings and other enclosed structures. Personally wrote an algorithm that calculated the ideal antenna locations based on physical building layout. Solution now in production use in Nokia Siemens Networks. </li>
+												<li class="text-justify"><strong>Secondary project:</strong> Member of 3 person team that planned outdoor radio towers using Google Earth. Personally wrote an algorithm to determine the optimum location of each antenna after analyzing the terrain and obstacles. </li>
+											</ul>
+										</div>   
+									</div>
+								<!--</div>-->
+						
+							</div>
+						</div>
+						
+						<!-- CODE FOR BLANKSPACE -->
+						<div class="blankspace">
+							<div class="container">
+								<br><br><br><br><br><br><br><br><br><br><br><br><br>
+							</div>
+						</div>
+						<!-- CODE FOR BLANKSPACE ENDS--> 
+						
+						<div class="carousel-caption">
+							Experience
+						</div>
+					</div>
+					<!-- SLIDE 2 ENDS -->
+					
+					<!-- SLIDE 3 -->
+					<div class="item">
+					
+						<!-- CODE FOR BLANKSPACE -->
+						<div class="blankspace">
+							<div class="container">
+								<br><br><br><br><br><br><br><br><br>
+							</div>
+						</div>
+						<!-- CODE FOR BLANKSPACE ENDS--> 
+						
+						<!-- CODE FOR THUMBNAILS BASED SKILLS -->
+						<div class="about-me">
+
+							<div class="skills">
+								<h1>Skills</h1>
+				
+								<div class="row">
+									<div class="col-md-4">
+										<div class="thumbnail">
+											<img src="images/skills.jpg">
+										
+										</div>
+									</div>
+									<div class="col-md-8">
+										<ul>
+											<li><h2>Languages:</h2> C, C++, Python, HTML, CSS, JavaScript, Android</li>
+											<li class="text-justify"><h2>Programming Techniques:</h2> Object Oriented Design, Data Structures and Algorithms, Parallel Computing (POSIX Threads), Distributed Computing (MPI), Graphics programming (CUDA, OpenGL)</li>
+											<li><h2>Software Tools: </h2>Eclipse IDE, Visual Studio, MATLAB, mikroC PRO, MPLAB</li>
+											<li class="text-justify"><h2>Computer Architecture:</h2> Caches, Processor Design, Pipelining, Branch Prediction, Memory organization</li>
+											<li><h2>OS Environments:</h2> Linux, Windows</li>
+										</ul>		                
+									</div>   
+								</div>
+							</div>
+						</div>
+						
+						<!-- CODE FOR BLANKSPACE -->
+						<div class="blankspace">
+							<div class="container">
+								<br><br><br><br><br><br><br><br><br><br><br>
+							</div>
+						</div>
+						<!-- CODE FOR BLANKSPACE ENDS--> 
+						
+						<div class="carousel-caption">
+							Skills
+						</div>
+					</div>
+					<!-- SLIDE 3 ENDS -->
+					
+					<!-- SLIDE 4 -->
+					<div class="item">
+					
+						<!-- CODE FOR BLANKSPACE -->
+						<div class="blankspace">
+							<div class="container">
+								<br><br><br><br><br><br><br><br><br><br><br><br>
+							</div>
+						</div>
+						<!-- CODE FOR BLANKSPACE ENDS--> 
+						
+						<!-- CODE FOR THUMBNAILS BASED ACHIEVEMENTS -->
+						<div class="about-me">
+							<div class="achievements">
+								<h1>Achievement</h1>
+				
+								<div class="row">
+									<div class="col-md-4">
+										<div class="thumbnail">
+											<img src="images/achievement.jpg">
+										
+										</div>
+									</div>
+									<div class="col-md-8">
+										<p class="text-justify"><strong>Cache Replacement Championship (C++):</strong> Obtained <strong>2nd rank</strong> amongst 40 participants in the tournament held in Georgia Tech based on the annual competition whereby entrants compete to develop the best cache replacement algorithms within a set of size constraints.</p>	                
+									</div>   
+								</div>
+							</div>
+						</div>
+						
+						<!-- CODE FOR BLANKSPACE -->
+						<div class="blankspace">
+							<div class="container">
+								<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+							</div>
+						</div>
+						<!-- CODE FOR BLANKSPACE ENDS--> 
+						
+						<div class="carousel-caption">
+							Achievments
+						</div>
+					</div>
+					<!-- SLIDE 4 ENDS -->
+					
+					
+				</div>
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>	
+		<!-- CODE FOR CAROUSEL ENDS-->
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		
+		<!-- Custom JavaScript -->
+		<script src="app.js"></script>
+		
+		<!-- CODE FOR LEFT AND RIGHT KEY PRESS FOR CAROUSEL -->
+		<script type="text/javascript">
+			jQuery(document).bind('keyup', function(e) {
+
+			  if(e.keyCode==39){
+			  	jQuery('a.carousel-control.right').trigger('click');
+			  }   
+
+			  else if(e.keyCode==37){
+			  	jQuery('a.carousel-control.left').trigger('click');
+			  }
+
+			});
+		</script>
+		<!-- CODE FOR LEFT AND RIGHT KEY PRESS FOR CAROUSEL ENDS-->
+		
+	</body>
+</html>

@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Akshay Sawant - Projects</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		
+		<!-- Glyphicons from Font Awesome -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+		<!-- My stylesheet -->
+		<link rel="stylesheet" href="main.css">
+	</head>
+	
+	<body>
+		<!-- CODE FOR NAVBAR --> 
+		<nav class="navbar navbar-inverse ">
+		  <div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">
+			  	<img alt="Brand" style="height: 30px; display: inline; padding-right: 5px" src="images/brand.jpg">Akshay Sawant
+			  </a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<!-- <li class="active"><a href="#">About Me<span class="sr-only">(current)</span></a></li>  -->
+				<li><a style="top: 5px" href="about_me.html">About Me</a></li>
+				<li class="dropdown">
+				  <a style="top: 5px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+				  	<li><a href="projects.html#approx-computing">Approximate Computing (HTML, CSS, JavaScript, Python, Java)</a></li>
+				  	<li class="divider"></li>
+				    <li><a href="projects.html#mbset">MandelBrot Set (CUDA, OpenGL)</a></li>
+				    <li><a href="projects.html#jet">Fighter Jet (OpenGL)</a></li>
+				    <li><a href="projects.html#rsa">RSA Algorithm (C++)</a></li>
+				    <li><a href="projects.html#vector">Templated Vector (C++)</a></li>
+				    <li><a href="projects.html#phreads">2D DFT using POSIX Threads (C++, pthreads)</a></li>
+				    <li><a href="projects.html#mpi">2D DFT using MPI (C++, MPI)</a></li>
+				    <li class="divider"></li>
+					<li><a href="projects.html#coherence">Cache Coherence (C++)</a></li>
+					<li><a href="projects.html#tomasulo">Superscalar Processor using Tomasulo Algorithm (C++, Python)</a></li>
+					<li><a href="projects.html#cache">Cache Simulator (C++, Python)</a></li>
+				    <li class="divider"></li>
+				    <li><a href="projects.html#widiki">Wireless Diagnostic System (Android, Embedded C)</a></li>
+				    <li><a href="projects.html#zigbee">Wireless Display using ZigBee</a></li>
+				    <li><a href="projects.html#bot">Intelligent Transhosp Medibot</a></li>
+				    <li class="divider"></li>
+				    <li><a href="http://www.iaeme.com/MasterAdmin/UploadFolder/IN%20BUILDING%20SOLUTIONS%20_IBS_%20USING%20DISTRIBUTED%20ANTENNA%20SYSTEM%5CIN%20BUILDING%20SOLUTIONS%20_IBS_%20USING%20DISTRIBUTED%20ANTENNA%20SYSTEM.pdf">In Building Solutions</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			  <ul class="nav navbar-nav navbar-right">
+			  	<!--
+				<li><a style="top: 5px" href="#">Skills</a></li>
+				-->
+				<li class="dropdown">
+				  <a style="top: 5px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Publications<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+				    <li><a href="http://www.iaeme.com/MasterAdmin/UploadFolder/IN%20BUILDING%20SOLUTIONS%20_IBS_%20USING%20DISTRIBUTED%20ANTENNA%20SYSTEM%5CIN%20BUILDING%20SOLUTIONS%20_IBS_%20USING%20DISTRIBUTED%20ANTENNA%20SYSTEM.pdf">In Building Solutions using Distributed Antenna System</a></li>
+				    <li><a href="http://www.academia.edu/4156737/WIRELESS_DISPLAY_USING_ZIGBEE">Wireless Display using ZigBee</a></li>
+				    <li><a href="http://www.ijser.org/researchpaper%5CIntelligent-TransHosp-Medibot.pdf">Intelligent Transhosp Medibot</a></li>
+				  </ul>
+				</li>
+				<li class="dropdown">
+				  <a style="top: 5px" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact<span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+				    <li><a href="contact.html#email">E-mail</a></li>
+				    <li><a href="contact.html#phone">Phone</a></li>
+				    <li class="divider"></li>
+				    <li><a href="contact.html#postal-mail">Postal Address</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		
+		<!-- CODE FOR THUMBNAILS BASED PROJECTS -->
+		<div class="project-page">
+		    <div class="container">
+		        <h1>Projects</h1>
+		        <p>Here are some of my projects. You can click on the 'GitHub' button to view the code, or click on the 'YouTube' button to watch a video related to the project.</p>
+		    
+		    
+		    	<p><h2>Projects under Special Problem (ECE 8903)</h2></p>
+		        <div class="row">
+		        	<div class="col-md-4" id="approx-computing">
+		                <br>
+		                <div class="thumbnail">
+				            <img src="images/project-approx-computing.png">
+				            <div class="caption">
+				             	<p class="text-center">Approximate Computing</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8">
+		                <h2>Approximate Computing</h2>
+		                <p class="date-range">February 2015 - April 2015</p>
+		                <ul>
+		                	<li>Programming Language: HTML, CSS, JavaScript, Python, Java</li>
+		                </ul>
+		                <ul>Description:
+		                	<li>Currently working on a semester long research project under <strong>Prof. Hadi Esmaeilzadeh</strong> which involves designing a web
+based interactive game</li>
+		                	<li>Consensus-oriented game system which is designed using 'HTML, CSS and JavaScript' collects general public's opinions
+regarding how much error is acceptable for a given application</li>
+							<li>Sobel-filtered images are generated using 'Java' and database is maintained in 'Heroku', a cloud platform using 'Python'</li>
+						</ul>
+						<br>
+						<a class="btn btn-danger btn-lg" href="http://approx-game.herokuapp.com/" role="button">Play Game</a>
+						<a class="btn btn-info btn-lg" href="#approx-computing" role="button">GitHub</a>
+						<a class="btn btn-success btn-lg" href="#approx-computing" role="button">Project Report</a>
+		            </div>
+		        </div>
+		        
+		    	<br>
+		    	<p><h2>Projects under Advanced Programming Techniques (ECE 8893)</h2></p>
+		        <div class="row" id="mbset">
+		            <div class="col-md-5">
+				        <br>
+			            <iframe width="420" height="315"
+							src="http://www.youtube.com/embed/PlJf5kqu4ck?autoplay=0&loop=1">
+						</iframe>
+		            </div>
+		            <div class="col-md-7">
+		                <h2>MandelBrot Set Display</h2>
+						<p class="date-range">November 2014 - December 2014</p>
+		                <ul>
+		                	<li>Programming Language: C++</li>
+		                	<li>Application Software: CUDA, OpenGL</li>
+		                </ul>
+		                <br>
+		                <ul>Description:
+		                	<li>Computed and displayed a visual image of the Mandelbrot Set</li>
+		                	<li>Used OpenGL graphics API, and the CUDA GPU programming environment</li>
+						</ul>
+						<br>
+						<a class="btn btn-info btn-lg" href="https://github.com/akshaycj47/MandelBrot-Set" role="button">GitHub</a>
+						<a class="btn btn-danger btn-lg" href="https://www.youtube.com/watch?v=PlJf5kqu4ck&edit=vd" role="button">YouTube</a>
+						<a class="btn btn-success btn-lg" href="pdf/MBSet.pdf" role="button">Project Statement</a>						
+		            </div>   
+		        </div>
+		        
+		        <div class="row" id="jet">
+		            <div class="col-md-5">
+		                <br>
+			            <iframe width="420" height="315"
+							src="http://www.youtube.com/embed/F_UfFijGMwA?autoplay=0&loop=1">
+						</iframe>
+		            </div>
+		            <div class="col-md-7">
+		                <h2>OpenGL Jet</h2>
+		                <p class="date-range">November 2014</p>
+		                <ul>
+		                	<li>Programming Language: C++</li>
+		                	<li>Application Software: OpenGL</li>
+		                </ul>
+		                <ul>Description:
+		                	<li>Used the OpenGL graphics API to create and display a three-dimensional image of a jet aircraft</li>
+		                	<li>Used keyboard input to control rotation, scaling, and lighting of the jet</li>
+						</ul>
+						<br>
+						<a class="btn btn-info btn-lg" href="https://github.com/akshaycj47/OpenGL-Jet" role="button">GitHub</a>
+						<a class="btn btn-danger btn-lg" href="https://www.youtube.com/watch?v=F_UfFijGMwA" role="button">YouTube</a>
+						<a class="btn btn-success btn-lg" href="pdf/Jet.pdf" role="button">Project Statement</a>
+		            </div>   
+		        </div>
+		        
+		        <div class="row" id="rsa">
+		            <div class="col-md-4">
+		                <br>
+		                <div class="thumbnail">
+				            <img src="images/project-rsa.jpg">
+				            <div class="caption">
+				             	<p class="text-center">RSA Algorithm</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8">
+		                <h2>RSA Algorithm</h2>
+		                <p class="date-range">October 2014</p>
+		                <ul>
+		                	<li>Programming Language: C++</li>
+		                </ul>
+		                <ul>Description:
+		                	<li>Implemented the RSA public-key encryption algorithm using the GNU multi-precision arithmetic library</li>
+		                	<li>Generated public/private key pairs, random messages, encrypted the random message with the public key, decrypted the
+random message with the private key</li>
+							<li>Verified that the decrypted message matches the original message</li>
+		                	<li>Cracked the RSA algorithm by Factorization method</li>
+						</ul>
+						<br>
+						<a class="btn btn-info btn-lg" href="https://github.com/akshaycj47/RSA" role="button">GitHub</a>
+						<a class="btn btn-success btn-lg" href="pdf/RSA.pdf" role="button">Project Statement</a>
+		            </div>
+		        </div>
+		        
+		        <div class="row" id="vector">
+		            <div class="col-md-4">
+		                <br>
+		                <div class="thumbnail">
+				            <img src="images/project-vector.png">
+				            <div class="caption">
+				             	<p class="text-center">Templated Vector</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8">
+		                <h2>Templated Vector</h2>
+		                <p class="date-range">October 2014</p>
+		                <ul>
+		                	<li>Programming Language: C++</li>
+		                </ul>
+		                <ul>Description:
+		                	<li>Implemented a templated class called Vector, which is a variable length array</li>
+		                	<li>Implemented an iterator called VectorIterator, which is used to point to  an existing element in the Vector</li>
+						</ul>
+						<br>
+						<a class="btn btn-info btn-lg" href="https://github.com/akshaycj47/Vector" role="button">GitHub</a>
+						<a class="btn btn-success btn-lg" href="pdf/TemplatedVector.pdf" role="button">Project Statement</a>
+		            </div>   
+		        </div>
+		        
+		        <div class="row" id="pthreads">
+		            <div class="col-md-4">
+		                <br>
+		                <div class="thumbnail">
+				            <img src="images/project-pthreads.jpg">
+				            <div class="caption">
+				             	<p class="text-center">POSIX Threads</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8">
+		                <h2>2D DFT using POSIX Threads</h2>
+		                <p class="date-range">September 2014</p>
+		                <ul>
+		                	<li>Programming Language: C++</li>
+		                </ul>
+		                <ul>Description:
+		                	<li>Computes a 2D Discrete Fourier Transform of a given input image, by computing 1D transforms on eacy row, followed by the 1D transforms on each column</li>
+		                	<li>Implemented much efficient Danielson-Lanczos approach for the 1D transforms</li>
+		                	<li>Used 16 threads to perform 1D transforms</li>
+						</ul>
+						<br>
+						<a class="btn btn-info btn-lg" href="https://github.com/akshaycj47/POSIX-threads" role="button">GitHub</a>
+						<a class="btn btn-success btn-lg" href="pdf/dft2d-PThreads.pdf" role="button">Project Statement</a>
+		            </div>
+		        </div>
+		            
+		        <div class="row" id="mpi">
+		            <div class="col-md-4">
+		                <br>
+		                <div class="thumbnail">
+				            <img src="images/project-mpi.png">
+				            <div class="caption">
+				             	<p class="text-center">MPI</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8">
+		                <h2>2D DFT using MPI</h2>
+		                <p class="date-range">September 2014</p>
+		                <ul>
+		                	<li>Programming Language: C++</li>
+		                </ul>
+		                <ul>Description:
+		                	<li>Reduced computation time of 2D DFT by using multiple CPUs in a cluster</li>
+		                	<li>Implemented distributed computing by using Message Passing Interface (MPI)</li>
+						</ul>
+						<br>
+						<a class="btn btn-info btn-lg" href="https://github.com/akshaycj47/MPI" role="button">GitHub</a>
+						<a class="btn btn-success btn-lg" href="pdf/fft2d.pdf" role="button">Project Statement</a>
+		            </div>   
+		        </div>
+		        
+		        		        
+		        <br>
+		        <p><h2>Projects under Advanced Computer Architecture (ECE 6100)</h2></p>
+		        <div class="row">
+		        	<div class="col-md-4" id="coherence">
+		                <br>
+		                <div class="thumbnail">
+				            <img src="images/project-coherence.png">
+				            <div class="caption">
+				             	<p class="text-center">Cache Coherence</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8">
+		                <h2>Cache Coherence</h2>
+		                <p class="date-range">November 2014 - December 2014</p>
+		                <ul>
+		                	<li>Programming Language: C++</li>
+		                </ul>
+		                <ul>Description:
+		                	<li>Designed a simulator that maintains coherent caches for 4, 8 and 16 core CMP</li>
+		                	<li>Implemented MSI, MESI, MOSI, MOESI and MOESIF protocols for a bus-based broadcast system</li>
+						</ul>
+						<br>
+						<a class="btn btn-info btn-lg" href="https://github.com/akshaycj47/Cache-Coherence" role="button">GitHub</a>
+						<a class="btn btn-success btn-lg" href="pdf/cachecoherencereport.pdf" role="button">Project Report</a>
+		            </div>
+		        </div>
+		        
+		        <div class="row">
+		        	<div class="col-md-4" id="tomasulo">
+		                <br>
+		                <div class="thumbnail">
+				            <img src="images/project-tomasulo.png">
+				            <div class="caption">
+				             	<p class="text-center">Tomasulo Algorithm</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8">
+		                <h2>Superscalar Processor using Tomasulo Algorithm</h2>
+		                <p class="date-range">November 2014</p>
+		                <ul>
+		                	<li>Programming Language: C++, Python</li>
+		                </ul>
+		                <ul>Description:
+		                	<li>Designed a simulator for an out-of-order Superscalar processor that uses Tomasulo Algorithm</li>
+		                	<li>Wrote a Python script to vary parameters like Fetch Rate, number of Result Buses, number of Function Units to find the optimum combination that processes maximum IPC against minimum hardware cost</li>
+						</ul>
+						<br>
+						<a class="btn btn-info btn-lg" href="https://github.com/akshaycj47/Tomasulo-Algorithm" role="button">GitHub</a>
+						<a class="btn btn-success btn-lg" href="pdf/tomasuloreport.pdf" role="button">Project Report</a>
+		            </div>   
+		        </div>
+		        
+		        <div class="row">
+		        	<div class="col-md-4" id="cache">
+		                <br>
+		                <div class="thumbnail">
+				            <img src="images/project-cache.png">
+				            <div class="caption">
+				             	<p class="text-center">Cache Simulator</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8" id="cache">
+		                <h2>Cache Simulator</h2>
+		                <p class="date-range">September 2014 - October 2014</p>
+		                <ul>
+		                	<li>Programming Language: C++, Python</li>
+		                </ul>
+		                <ul>Description:
+		                	<li>Designed a parametric cache simulator with Write-Back Write-Allocate policy and LRU eviction</li>
+		                	<li>Implemented victim cache and stride prefetching</li>
+		                	<li>Wrote a Python script to vary and optimize Cache parameters to obtain a suitable minimal Average Access Time</li>
+						</ul>
+						<br>
+						<a class="btn btn-info btn-lg" href="https://github.com/akshaycj47/Cache-Simulator" role="button">GitHub</a>
+						<a class="btn btn-success btn-lg" href="pdf/cachesimreport.pdf" role="button">Project Report</a>
+		            </div>
+		        </div>
+		        
+		        <br>
+		        <p><h2>Projects under University of Mumbai</h2></p>		        
+		        <div class="row" id="widiki">
+		            <div class="col-md-5">
+		                <br>
+			            <iframe width="420" height="315"
+							src="http://www.youtube.com/embed/vs85fnV0z7Q?autoplay=0&loop=1">
+						</iframe>
+		            </div>
+		            <div class="col-md-7">
+		                <h2>Wireless Diagnostic System</h2>
+		                <p class="date-range">April 2014</p>
+		                <ul>
+		                	<li>Programming Language: Android, Embedded C</li>
+		                	<li>Application Software: Eclipse IDE, MikroC Pro</li>
+		                	<li>Course: Final Year Project</li>
+		                </ul>
+		                <br>
+		                <ul>Description:
+		                	<li>Measured patient's body temperature and heart pulse using appropriate sensors</li>
+		                	<li>Developed Android App to enter, store and send health parameters</li>
+						</ul>
+						<br>
+						<a class="btn btn-danger btn-lg" href="https://www.youtube.com/watch?v=vs85fnV0z7Q&feature=youtu.be" role="button">YouTube</a>
+						<a class="btn btn-success btn-lg" href="pdf/widiki.pdf" role="button">Project Report</a>	
+		            </div>   
+		        </div>
+		        
+		        <div class="row" id="zigbee">
+		            <div class="col-md-4">
+		                <br>
+		                <div class="thumbnail">
+				            <img src="images/project-zigbee.jpg">
+				            <div class="caption">
+				             	<p class="text-center">Wireless Display using ZigBee</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8">
+		                <h2>Wireless Display using ZigBee</h2>
+		                <p class="date-range">January 2013</p>
+		                <ul>
+		                	<li>Programming Language: C, Embedded C</li>
+		                	<li>Application Software: MATLAB</li>
+		                	<li>Course: Tech Expo</li>
+		                </ul>
+		                <br>
+		                <ul>Description:
+		                	<li>Developed a Wireless notice board which displays messages when sent from the PC</li>
+		                	<li>Used XBee explorer to receive data from the PC and send it to ATMEGA16</li>
+		                	<li>Display the messages on the Graphic LCD</li>
+						</ul>
+		            </div>   
+		        </div>
+		        
+		        <div class="row" id="bot">
+		            <div class="col-md-4">
+		                <div class="thumbnail">
+				            <img src="images/project-medibot.jpg">
+				            <div class="caption">
+				             	<p class="text-center">Intelligent Transhosp Medibot</p>
+				            </div>
+		                </div>
+		            </div>
+		            <div class="col-md-8">
+		                <h2>Intelligent Transhosp Medibot</h2>
+		                <p class="date-range">October 2012</p>
+		                <ul>
+		                	<li>Programming Language: C</li>
+		                	<li>Application Software: </li>
+		                	<li>Course: Electronic Hardware Workshop</li>
+		                </ul>
+		                <br>
+		                <ul>Description:
+		                	<li>Improvised line follower robot so that it can meet the needs of a hospital</li>
+		                	<li> Implemented line following, obstacle avoiding, and automated transporting</li>
+							<li>Line follower robot can be used in hospital to transport medicines, linens and to dispose waste</li>
+						</ul>
+		            </div>   
+		        </div>
+		        
+		    </div>
+    	</div>
+		
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	</body>	
+</html>
