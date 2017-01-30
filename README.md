@@ -22,3 +22,5 @@ v1.4 [2015-07-02] Added embedded YouTube videos on the Projects page. [UPDATED]
 v1.4.1 [2015-12-04] Updated Intel internship experience.
 
 v1.5 [2016-03-28] Updated index.html to add timeline.js [UPDATED]
+
+v1.5.1 [2017-01-29] Update timeline.js and experience [UPDATED]
