@@ -1,5 +1,5 @@
 # Personal-Website
-This is the source code for my personal website (https://www.akshaysawant.com)
+This is the source code for my personal website (www.akshaysawant.com)
 
 v1.0 [2015-03-01] Just downloaded from prism. No changes made.
 
