@@ -26,3 +26,5 @@ v1.5 [2016-03-28] Updated index.html to add timeline.js
 v1.5.1 [2017-01-29] Update timeline.js and experience.
 
 v1.5.2 [2018-12-13] Add Bloomberg experience.
+
+v1.6 [2026-04-20] Add Meta experience.
